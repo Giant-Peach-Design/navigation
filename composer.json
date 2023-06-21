@@ -1,0 +1,14 @@
+{
+  "name": "giantpeach/navigation",
+  "autoload": {
+    "psr-4": {
+      "Giantpeach\\Schnapps\\Navigation\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Giant Peach"
+    }
+  ],
+  "require": {}
+}
