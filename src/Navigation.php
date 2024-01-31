@@ -14,6 +14,10 @@ class Navigation
   public static function getNavMenuItems($name)
   {
     $menus = get_nav_menu_locations();
+    if (array_key_exists($name, $menus) === false) {
+      return [];
+    }
+
     return wp_get_nav_menu_items($menus[$name]);
   }
 
